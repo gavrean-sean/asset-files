@@ -1,12 +1,11 @@
 # TODO.md
 
-    All important actions to be done in the `package-generator` will be documented in this file.
+    All important actions to be done in the `asset-files` will be documented in this file.
 
 - - - - -
 
 ## Todo
 
-- [ ] **Package commands** in the **ServiceProvider.php** file will be checked.
 - [ ] The **directories** in the package files will be added to the **php-stan-static-analysis.yml** file.
 - [ ] **TREE.md** file content will be updated.
 - [ ] The **package commands** in the **config/xx.php** file will be activated depending on the content of our package.
@@ -23,6 +22,7 @@
 
 ## Done ✓
 
+- [x] **Package commands** in the **ServiceProvider.php** file will be checked.
 - [x] Example done todo.
 
 - - - - -

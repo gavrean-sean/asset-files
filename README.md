@@ -1,24 +1,24 @@
 [
     <p align="center">
-        <img src="https://banners.beyondco.de/package-generator.png?theme=light&packageManager=composer+require&packageName=gavrean-sean%2Fpackage-generator&pattern=architect&style=style_1&description=Simple+Package+To+Quickly+Generate+Basic+Structure+For+Other+Laravel+Packages.&md=1&showWatermark=0&fontSize=175px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" alt="package-generator">
+        <img src="https://banners.beyondco.de/asset-files.png?theme=light&packageManager=composer+require&packageName=gavrean-sean%2Fasset-files&pattern=architect&style=style_1&description=Asset+Files.&md=1&showWatermark=0&fontSize=175px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" alt="asset-files">
     </p>
-](https://github.com/gavrean-sean/package-generator)
+](https://github.com/gavrean-sean/asset-files)
 
 - - - - -
 
 [
     <p align="center">
-        <img src="https://img.shields.io/packagist/dt/gavrean-sean/package-generator" alt="Total Downloads">
-        <img src="https://img.shields.io/packagist/v/gavrean-sean/package-generator" alt="Latest Stable Version">
-        <img src="https://img.shields.io/packagist/l/gavrean-sean/package-generator" alt="License">
+        <img src="https://img.shields.io/packagist/dt/gavrean-sean/asset-files" alt="Total Downloads">
+        <img src="https://img.shields.io/packagist/v/gavrean-sean/asset-files" alt="Latest Stable Version">
+        <img src="https://img.shields.io/packagist/l/gavrean-sean/asset-files" alt="License">
     </p>
-](https://github.com/gavrean-sean/package-generator)
+](https://github.com/gavrean-sean/asset-files)
 
 - - - - -
 
-# package-generator
+# asset-files
 
-    Simple Package To Quickly Generate Basic Structure For Other Laravel Packages.
+    Asset Files.
 
 - - - - -
 
@@ -35,7 +35,7 @@
 **_Download `Laravel` System Files_**
 
 ```bash
-laravel new package-generator
+laravel new asset-files
 
 ```
 
@@ -76,14 +76,14 @@ yes
 
 - - - - -
 
-**Download `package-generator` System Files In The `Laravel` Project Folder**
+**Download `asset-files` System Files In The `Laravel` Project Folder**
 
 - - - - -
 
-**Switch To `package-generator` Directory**
+**Switch To `asset-files` Directory**
 
 ```bash
-cd package-generator
+cd asset-files
 
 ```
 
@@ -94,7 +94,7 @@ cd package-generator
 ```bash
 cls
 
-copy F:\composer-json\v11x\package-generator\composer.json C:\xampp\htdocs\package-generator\composer.json
+copy F:\composer-json\v11x\asset-files\composer.json C:\xampp\htdocs\asset-files\composer.json
 
 ```
 
@@ -109,10 +109,10 @@ yes
 
 - - - - -
 
-**Install `package-generator` Package**
+**Install `asset-files` Package**
 
 ```bash
-composer require gavrean-sean/package-generator
+composer require gavrean-sean/asset-files
 
 ```
 
@@ -132,7 +132,7 @@ composer dump-autoload
 ```bash
 cls
 
-copy F:\composer-json\v11x\Providers\AppServiceProvider.php C:\xampp\htdocs\package-generator\app\Providers\AppServiceProvider.php
+copy F:\composer-json\v11x\Providers\AppServiceProvider.php C:\xampp\htdocs\asset-files\app\Providers\AppServiceProvider.php
 
 ```
 
@@ -147,10 +147,10 @@ yes
 
 - - - - -
 
-**Publish All `package-generator` System Files**
+**Publish All `asset-files` System Files**
 
 ```bash
-php artisan package-generator:install
+php artisan asset-files:install
 
 ```
 
@@ -165,7 +165,7 @@ php artisan optimize-configuration
 
 - - - - -
 
-**_Application ready in [package-generator]. Start your local development._**
+**_Application ready in [asset-files]. Start your local development._**
 
 ```bash
 cls
@@ -186,13 +186,13 @@ Please see [TODO](TODO.md) for more information on what's coming soon.
 
 ## Demo
 
-[Package Generator Page](http://package-generator.test)
+[Asset Files Page](http://asset-files.test)
 
 - - - - -
 
 ## Package
 
-[Package Home Page](https://github.com/gavrean-sean/package-generator)
+[Package Home Page](https://github.com/gavrean-sean/asset-files)
 
 - - - - -
 

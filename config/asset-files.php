@@ -12,8 +12,8 @@ return [
     */
 
     'package_information' => [
-        'name' => 'package-generator',
-        'description' => 'Simple Package To Quickly Generate Basic Structure For Other Laravel Packages.',
+        'name' => 'asset-files',
+        'description' => 'Asset Files.',
     ],
 
     /*

@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `package-generator` will be documented in this file.
+All notable changes to `asset-files` will be documented in this file.

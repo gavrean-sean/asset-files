@@ -6,7 +6,7 @@ if (! function_exists('packageName')) {
      */
     function packageName(): mixed
     {
-        return app('package-generator')->packageName();
+        return app('asset-files')->packageName();
     }
 }
 
@@ -16,7 +16,7 @@ if (! function_exists('packageVersion')) {
      */
     function packageVersion(): mixed
     {
-        return app('package-generator')->packageVersion();
+        return app('asset-files')->packageVersion();
     }
 }
 
@@ -26,7 +26,7 @@ if (! function_exists('configValue')) {
      */
     function configValue(string $configKeyName = 'package_information.name'): mixed
     {
-        return app('package-generator')->configValue($configKeyName);
+        return app('asset-files')->configValue($configKeyName);
     }
 }
 
@@ -36,7 +36,7 @@ if (! function_exists('viewPath')) {
      */
     function viewPath(string $viewFileName = 'pages.home.index'): string
     {
-        return app('package-generator')->viewPath($viewFileName);
+        return app('asset-files')->viewPath($viewFileName);
     }
 }
 
@@ -46,6 +46,6 @@ if (! function_exists('assetPath')) {
      */
     function assetPath(string $assetFileName = 'images/favicon.ico'): mixed
     {
-        return app('package-generator')->assetPath($assetFileName);
+        return app('asset-files')->assetPath($assetFileName);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace GavreanSean\PackageGenerator\Console;
+namespace GavreanSean\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 
