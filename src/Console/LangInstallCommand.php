@@ -1,6 +1,6 @@
 <?php
 
-namespace GavreanSean\PackageGenerator\Console;
+namespace GavreanSean\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -12,14 +12,14 @@ class LangInstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'package-generator:lang-install';
+    protected $signature = 'asset-files:lang-install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Install the package-generator lang files';
+    protected $description = 'Install the asset-files lang files';
 
     /**
      * Execute the console command.

@@ -1,6 +1,6 @@
 <?php
 
-namespace GavreanSean\PackageGenerator\Console;
+namespace GavreanSean\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 
@@ -11,14 +11,14 @@ class StubsInstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'package-generator:stubs-install';
+    protected $signature = 'asset-files:stubs-install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Install the package-generator stubs files';
+    protected $description = 'Install the asset-files stubs files';
 
     /**
      * Execute the console command.

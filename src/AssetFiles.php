@@ -1,13 +1,13 @@
 <?php
 
-namespace GavreanSean\PackageGenerator;
+namespace GavreanSean\AssetFiles;
 
-class PackageGenerator
+class AssetFiles
 {
     /**
      * Package name.
      */
-    private const PACKAGE_NAME = 'package-generator';
+    private const PACKAGE_NAME = 'asset-files';
 
     /**
      * Package version.

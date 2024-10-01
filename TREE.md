@@ -23,24 +23,24 @@
 │     └─ logo.png
 ├─ composer.json
 ├─ config
-│  └─ package-generator.php
+│  └─ asset-files.php
 ├─ database
 │  ├─ migrations
-│  │  └─ create_package_generator_table.php
+│  │  └─ create_asset_files_table.php
 │  └─ seeders
-│     └─ PackageGeneratorSeeder.php
+│     └─ AssetFilesSeeder.php
 ├─ lang
 │  ├─ en
-│  │  └─ package-generator.php
+│  │  └─ asset-files.php
 │  └─ tr
-│     └─ package-generator.php
+│     └─ asset-files.php
 ├─ resources
 │  └─ views
 │     └─ pages
 │        └─ home
 │           └─ index.blade.php
 ├─ routes
-│  └─ package-generator.php
+│  └─ asset-files.php
 ├─ src
 │  ├─ Console
 │  │  ├─ AssetsInstallCommand.php
@@ -49,13 +49,13 @@
 │  │  ├─ InstallCommand.php
 │  │  ├─ LangInstallCommand.php
 │  │  ├─ OptimizeConfigurationCommand.php
-│  │  ├─ PackageGeneratorCommand.php
+│  │  ├─ AssetFilesCommand.php
 │  │  ├─ ResourcesInstallCommand.php
 │  │  ├─ RoutesInstallCommand.php
 │  │  └─ StubsInstallCommand.php
-│  ├─ PackageGenerator.php
-│  ├─ PackageGeneratorFacade.php
-│  ├─ PackageGeneratorServiceProvider.php
+│  ├─ AssetFiles.php
+│  ├─ AssetFilesFacade.php
+│  ├─ AssetFilesServiceProvider.php
 │  └─ helpers.php
 └─ stubs
    └─ .gitkeep

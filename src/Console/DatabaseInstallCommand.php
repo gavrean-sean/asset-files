@@ -1,6 +1,6 @@
 <?php
 
-namespace GavreanSean\PackageGenerator\Console;
+namespace GavreanSean\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -12,14 +12,14 @@ class DatabaseInstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'package-generator:database-install';
+    protected $signature = 'asset-files:database-install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Install the package-generator database files';
+    protected $description = 'Install the asset-files database files';
 
     /**
      * Execute the console command.

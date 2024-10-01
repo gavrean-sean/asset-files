@@ -1,10 +1,10 @@
 <?php
 
-namespace GavreanSean\PackageGenerator;
+namespace GavreanSean\AssetFiles;
 
 use Illuminate\Support\ServiceProvider;
 
-class PackageGeneratorServiceProvider extends ServiceProvider
+class AssetFilesServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
@@ -12,11 +12,11 @@ class PackageGeneratorServiceProvider extends ServiceProvider
     public function register(): void
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/package-generator.php', 'package-generator');
+        $this->mergeConfigFrom(__DIR__.'/../config/asset-files.php', 'asset-files');
 
         // Register the main class to use with the facade
-        $this->app->singleton('package-generator', function () {
-            return $this->app->make(PackageGenerator::class);
+        $this->app->singleton('asset-files', function () {
+            return $this->app->make(AssetFiles::class);
         });
     }
 
@@ -37,7 +37,6 @@ class PackageGeneratorServiceProvider extends ServiceProvider
             Console\InstallCommand::class,
             Console\LangInstallCommand::class,
             Console\OptimizeConfigurationCommand::class,
-            Console\PackageGeneratorCommand::class,
             Console\ResourcesInstallCommand::class,
             Console\RoutesInstallCommand::class,
             Console\StubsInstallCommand::class,

@@ -1,6 +1,6 @@
 <?php
 
-namespace GavreanSean\PackageGenerator\Console;
+namespace GavreanSean\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -12,14 +12,14 @@ class ResourcesInstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'package-generator:resources-install';
+    protected $signature = 'asset-files:resources-install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Install the package-generator resources files';
+    protected $description = 'Install the asset-files resources files';
 
     /**
      * Execute the console command.
@@ -44,6 +44,6 @@ class ResourcesInstallCommand extends Command
      */
     protected function views(): void
     {
-        (new Filesystem)->copyDirectory(__DIR__.'/../../resources/views', resource_path('views/package-generator'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../../resources/views', resource_path('views/asset-files'));
     }
 }
