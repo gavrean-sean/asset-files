@@ -1,0 +1,58 @@
+{
+    "name": "gavrean-sean/package-generator",
+    "description": "Simple Package To Quickly Generate Basic Structure For Other Laravel Packages.",
+    "license": "MIT",
+    "type": "library",
+    "version": "v0.0.0",
+    "keywords": [
+        "gavrean-sean",
+        "package-generator"
+    ],
+    "authors": [
+        {
+            "name": "Gavrean Sean",
+            "email": "gavreansean@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/gavrean-sean/package-generator",
+    "support": {
+        "issues": "https://github.com/gavrean-sean/package-generator/issues",
+        "source": "https://github.com/gavrean-sean/package-generator"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/config": "^11.0",
+        "illuminate/filesystem": "^11.0",
+        "illuminate/support": "^11.0",
+        "illuminate/validation": "^11.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^11.9",
+        "laravel/laravel": "^11.2.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "GavreanSean\\PackageGenerator\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "PackageGenerator": "GavreanSean\\PackageGenerator\\PackageGeneratorFacade"
+            },
+            "providers": [
+                "GavreanSean\\PackageGenerator\\PackageGeneratorServiceProvider"
+            ]
+        }
+    }
+}
