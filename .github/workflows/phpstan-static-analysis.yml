@@ -12,4 +12,4 @@ jobs:
       - name: PHPStan Static Analysis
         uses: php-actions/phpstan@v3
         with:
-          path: assets/ config/ database/ lang/ resources/ routes/ src/ stubs/
+          path: assets/ config/ src/

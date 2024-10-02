@@ -18,20 +18,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Supported Languages
-    |--------------------------------------------------------------------------
-    |
-    | Supported languages.
-    |
-    */
-
-    'supported_languages' => [
-        'en',
-        'tr',
-    ],
-
-    /*
-    |--------------------------------------------------------------------------
     | Optimization Commands
     |--------------------------------------------------------------------------
     |
@@ -57,13 +43,8 @@ return [
     */
 
     'package_commands' => [
-        'assets' => false,
+        'assets' => true,
         'config' => true,
-        'database' => false,
-        'lang' => false,
-        'resources' => false,
-        'routes' => false,
-        'stubs' => false,
     ],
 
 ];
