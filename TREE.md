@@ -5157,11 +5157,45 @@
 │  │  │     └─ auth-bg.mp4
 │  │  └─ dist
 │  │     └─ echarts.js
-│  └─ images
-│     ├─ arrow.png
-│     ├─ favicon.ico
-│     ├─ loader.gif
-│     └─ logo.png
+│  ├─ images
+│  │  ├─ arrow.png
+│  │  ├─ favicon.ico
+│  │  ├─ loader.gif
+│  │  └─ logo.png
+│  └─ special
+│     ├─ animate-css
+│     │  ├─ animate.compat.css
+│     │  ├─ animate.css
+│     │  └─ animate.min.css
+│     ├─ datatables
+│     │  ├─ bs4
+│     │  │  ├─ datatables.css
+│     │  │  ├─ datatables.js
+│     │  │  ├─ datatables.min.css
+│     │  │  └─ datatables.min.js
+│     │  └─ bs5
+│     │     ├─ datatables.css
+│     │     ├─ datatables.js
+│     │     ├─ datatables.min.css
+│     │     └─ datatables.min.js
+│     ├─ jconfirm
+│     │  ├─ jConfirm.css
+│     │  ├─ jConfirm.js
+│     │  ├─ jConfirm.min.css
+│     │  └─ jConfirm.min.js
+│     ├─ jquery-ui
+│     │  ├─ jquery-ui.css
+│     │  ├─ jquery-ui.js
+│     │  ├─ jquery-ui.min.css
+│     │  ├─ jquery-ui.min.js
+│     │  ├─ jquery-ui.structure.css
+│     │  ├─ jquery-ui.structure.min.css
+│     │  ├─ jquery-ui.theme.css
+│     │  └─ jquery-ui.theme.min.css
+│     └─ validation
+│        ├─ form-validation.min.css
+│        ├─ form-validation.min.js
+│        └─ jqBootstrapValidation.js
 ├─ composer.json
 ├─ config
 │  └─ asset-files.php
