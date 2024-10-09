@@ -6,7 +6,6 @@
 
 ## Todo
 
-- [ ] **TREE.md** file content will be updated.
 - [ ] Example todo.
 
 - - - - -
@@ -23,6 +22,7 @@
 - [x] **Package commands** in the **ServiceProvider.php** file will be checked.
 - [x] The **directories** in the package files will be added to the **php-stan-static-analysis.yml** file.
 - [x] The **package commands** in the **config/xx.php** file will be activated depending on the content of our package.
+- [x] **TREE.md** file content will be updated.
 - [x] Example done todo.
 
 - - - - -
