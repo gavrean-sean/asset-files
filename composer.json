@@ -3,7 +3,6 @@
     "description": "Asset Files.",
     "license": "MIT",
     "type": "library",
-    "version": "v0.0.0",
     "keywords": [
         "gavrean-sean",
         "asset-files"
