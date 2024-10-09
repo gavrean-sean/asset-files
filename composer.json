@@ -29,7 +29,7 @@
     },
     "require-dev": {
         "laravel/framework": "^11.9",
-        "laravel/laravel": "^11.2.0"
+        "laravel/laravel": "^11.2.1"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
