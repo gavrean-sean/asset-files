@@ -37,20 +37,4 @@ class AssetFiles
     {
         return config($this->packageName().'.'.$configKeyName);
     }
-
-    /**
-     * View path.
-     */
-    public function viewPath(string $viewFileName = 'pages.home.index'): string
-    {
-        return $this->packageName().'.'.$viewFileName;
-    }
-
-    /**
-     * Asset path.
-     */
-    public function assetPath(string $assetFileName = 'images/favicon.ico'): string
-    {
-        return asset($this->packageName().'/'.$assetFileName);
-    }
 }
