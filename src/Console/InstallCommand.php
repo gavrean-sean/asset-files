@@ -61,7 +61,7 @@ class InstallCommand extends Command
      */
     protected function startInstallation(): void
     {
-        foreach (configValue('package_commands') as $packageCommand => $status) {
+        foreach (assetFilesConfigValue('package_commands') as $packageCommand => $status) {
             if ($status) {
                 $this->call('asset-files:'.$packageCommand.'-install');
 

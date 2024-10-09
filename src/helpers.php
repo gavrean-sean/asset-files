@@ -1,51 +1,31 @@
 <?php
 
-if (! function_exists('packageName')) {
+if (! function_exists('assetFilesPackageName')) {
     /**
-     * Package name.
+     * Asset files package name.
      */
-    function packageName(): mixed
+    function assetFilesPackageName(): mixed
     {
         return app('asset-files')->packageName();
     }
 }
 
-if (! function_exists('packageVersion')) {
+if (! function_exists('assetFilesPackageVersion')) {
     /**
-     * Package version.
+     * Asset files package version.
      */
-    function packageVersion(): mixed
+    function assetFilesPackageVersion(): mixed
     {
         return app('asset-files')->packageVersion();
     }
 }
 
-if (! function_exists('configValue')) {
+if (! function_exists('assetFilesConfigValue')) {
     /**
-     * Config value.
+     * Asset files config value.
      */
-    function configValue(string $configKeyName = 'package_information.name'): mixed
+    function assetFilesConfigValue(string $configKeyName = 'package_information.name'): mixed
     {
         return app('asset-files')->configValue($configKeyName);
-    }
-}
-
-if (! function_exists('viewPath')) {
-    /**
-     * View path.
-     */
-    function viewPath(string $viewFileName = 'pages.home.index'): string
-    {
-        return app('asset-files')->viewPath($viewFileName);
-    }
-}
-
-if (! function_exists('assetPath')) {
-    /**
-     * Asset path.
-     */
-    function assetPath(string $assetFileName = 'images/favicon.ico'): mixed
-    {
-        return app('asset-files')->assetPath($assetFileName);
     }
 }
