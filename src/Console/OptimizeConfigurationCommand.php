@@ -33,7 +33,7 @@ class OptimizeConfigurationCommand extends Command
      */
     protected function optimizeConfiguration(): void
     {
-        foreach (configValue('optimization_commands') as $optimizationCommand) {
+        foreach (assetFilesConfigValue('optimization_commands') as $optimizationCommand) {
             $this->call($optimizationCommand);
 
             unset($optimizationCommand);
