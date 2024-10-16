@@ -12,7 +12,7 @@ class AssetFiles
     /**
      * Package version.
      */
-    private const PACKAGE_VERSION = 'v1.0.0';
+    private const PACKAGE_VERSION = 'v1.1.0';
 
     /**
      * Package name.
