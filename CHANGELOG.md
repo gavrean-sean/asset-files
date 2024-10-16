@@ -2,6 +2,14 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.1.0 - 2024-10-16
+
+### What's Changed
+
+* Update composer.json by @gavrean-sean in https://github.com/gavrean-sean/asset-files/pull/12
+
+**Full Changelog**: https://github.com/gavrean-sean/asset-files/compare/v1.0.0...v1.1.0
+
 ## v1.0.0 - 2024-10-09
 
 ### What's Changed
